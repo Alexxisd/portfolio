@@ -1,0 +1,237 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(37, 37, 37);
+}
+
+body::-webkit-scrollbar {
+    width: 12px; /* width of the entire scrollbar */
+}
+  
+body::-webkit-scrollbar-track {
+    background: #8b8a8a; /* color of the tracking area */
+    border-radius: 24px
+}
+  
+body::-webkit-scrollbar-thumb {
+    background-color: rgb(37, 37, 37); /* color of the scroll thumb */
+    border-radius: 20px; /* roundness of the scroll thumb */
+    border: 1px solid white; /* creates padding around scroll thumb */
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #8b8a8a;
+    padding: 20px;
+    border-radius: 24px;
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
+
+.logo {
+    width: 3%; /* Vous pouvez ajuster cette valeur selon vos besoins */
+    height: auto; /* Cela permet de maintenir le ratio d'aspect de l'image */
+}
+
+#header button {
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 24px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    margin: 0 10px;
+}
+
+#header button:hover {
+    background-color: rgb(37, 37, 37);
+    color: white;
+}
+
+.image-container {
+    position: relative;
+    display: flex; /* Ajoute Flexbox */
+    justify-content: center; /* Centre horizontalement */
+    align-items: center; /* Centre verticalement */
+    margin-bottom: 40px;
+}
+
+.image-container img {
+    width: 80%;
+    height: auto;
+    border-radius: 24px;
+}
+
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 36px; /* Augmente la taille de la police */
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.7); /* Ajoute un fond semi-transparent */
+    padding: 20px; /* Augmente l'espace autour du texte */
+    border-radius: 24px; /* Augmente le rayon des bords arrondis */
+    text-align: center; /* Centre le texte */
+}
+
+#about h1, h2  {
+    text-align: center;
+    color: white;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content textarea {
+    width: 45%;
+    height: 200px;
+}
+
+.content span {
+    width: 45%;
+    padding: 10px;
+    border: 1px solid #000;
+    border-radius: 24px;
+}
+
+.propos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.experience {
+    border-radius: 24px;
+    background-color: #8b8a8a;
+    color: white;
+    width: 45%;
+    padding: 10px;
+}
+.skills {
+    border-radius: 24px;
+    background-color: #8b8a8a;
+    color: white;
+    width: 45%;
+    padding: 10px;
+}
+
+#bts h1, h2  {
+    text-align: center;
+    color: white;
+}
+
+.about-f {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}    
+    
+.sisr {
+    border-radius: 24px;
+    background-color: #8b8a8a;
+    color: white;
+    width: 45%;
+    padding: 10px;
+}
+.slam {
+    border-radius: 24px;
+    background-color: #8b8a8a;
+    color: white;
+    width: 45%;
+    padding: 10px;
+}
+
+#Project, .Pro1 h1 {
+    text-align: center;
+    color: white;
+}
+
+.Pro1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 24px;
+    background-color: #8b8a8a;
+    color: white;
+    margin-bottom: 40px;
+}
+
+#cv-section {
+    text-align: center;
+    color: white;
+}
+
+#cv-section img {
+    width: 200px;
+    border-radius: 24px;
+    margin-bottom: 30px;
+}
+
+.cont {
+    text-align: center;
+    color: white;
+    margin-bottom: 30px;
+}
+
+#contact {
+    width: 30%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #8b8a8a;
+    border-radius: 24px;
+    margin-bottom: 40px;
+}
+
+#contact label {
+    font-weight: bold;
+    color: white;
+}
+
+#contact input[type=text], #contact input[type=email], #contact textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 24px;
+    box-sizing: border-box;
+}
+
+#contact input[type=submit] {
+    width: 100%;
+    background-color: #3662b4;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 24px;
+    cursor: pointer;
+}
+
+#contact input[type=submit]:hover {
+    background-color: rgb(37, 37, 37);
+}
+
+
+.veille, .vei h1 {
+    text-align: center;
+    color: white;
+}
+
+.vei1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 24px;
+    background-color: #8b8a8a;
+    color: white;
+    margin-bottom: 40px;
+}

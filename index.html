@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <meta charset="UTF-8" />
+    <title>Portfolio</title>
+    <link rel="shortcut icon" href="src/reseau.png" />
+</head>
+<body>
+    <div id="header">
+        <img src="src/reseau.png" class="logo">
+        <button onclick="location.href='#header'">Accueil</button>
+        <button onclick="location.href='#about'">A propos</button>
+        <button onclick="location.href='#Project'">Projets</button>
+        <button onclick="location.href='#contact'">Contact</button>
+    </div>
+    <div class="image-container">
+        <img src="src/telecomm.png" alt="Image de fond">
+        <div class="overlay-text">Alexis DENAIS<br>Apprenant en SIO option SISR<br>Solutions d'Infrastructure, Systèmes et Réseaux</div>
+    </div>
+    <div id="about">
+        <h1>À propos de moi</h1>
+        <hr>
+        <h2>Je suis Alexis DENAIS apprenant en SIO option SISR réseau a l'Institution Saint-Aspais.</h2>
+        <br>
+    </div>
+    <div class="propos">
+        <div class="experience">
+            <h3>Expérience</h3>
+            <hr>
+            <p>- Stage du 29 mai au 30 juin 2023 : SEPTODONT (au service informatique: maintenace du réseau)</p>
+            <p>- Stage du 24 janvier au 18 février 2022 : SOLETANCHE FREYSSINET (au service informatique: initiation a la sécurité du réseau et des données, la mises à jours des postes informatiques)</p>
+            <p>- Stage du 22 novembre au 17 décembre 2021 : SOLETANCHE FREYSSINET (au service informatique: initiation a la sécurité du réseau et des données, la mises à jours des postes informatiques)</p>
+            <p>- Stage en janvier 2021 et en mars 2021 : AVITECH (maintenance de système de sécurité: type alarme)</p>
+            <p>- Stage du 13 janvier au 31 janvier 2020 : SEPTODONT (au service informatique)</p>
+        </div>
+        <div class="skills">
+            <h3>Mes compétences</h3>
+            <hr>
+            <ul>
+                <li>Configuration de commutateur réseau</li>
+                <li>Cisco Packet Tracer</li>
+                <li>Virtual Box</li>
+                <li>Formation cybersécurité ANSSI</li>
+                <li>Pack office</li>
+                <li>Windows</li>
+                <li>HTML</li>
+                <li>CSS</li>
+            </ul>
+        </div>
+    </div>
+    <div id="bts">
+        <h1>À propos de ma formation</h1>
+        <hr>
+        <h2>Qu'est ce que le BTS SIO ?</h2>
+        <br>
+    </div>
+    <div class="about-f">
+        <div class="sisr">
+            <h3>SISR</h3>
+            <hr>
+            <p>L’acronyme SISR signifie « Solutions d’infrastructure, systèmes et réseaux ».</p>
+            <p>Voici des précisions sur cette formation. L’option SISR est destinée aux étudiants qui s’orientent vers les métiers liés à la conception et la maintenance d’infrastructures réseaux.</p> 
+            <p>Assurer la sécurité, la maintenance et l’installation des réseaux et des équipements informatiques font partie des principales missions des futurs administrateurs, techniciens ou pilotes d’exploitation.</p>
+            <p>Des cours plus généraux viendront compléter la formation et apporter des compétences plus généralistes, permettant ainsi aux diplômés d’être opérationnels dans n’importe quelle entreprise.</p>
+        </div>
+        <div class="slam">
+            <h3>SLAM</h3>
+            <hr>
+            <p>Le signe SLAM signifie « Solutions Logicielles et Applications Métier ».</p>
+            <p>Voici quelques indications sur cette seconde option du BTS SIO, ainsi des précisions sur cette formation. L’option SLAM est destinée aux étudiants qui s’orientent vers les métiers liés à la conception et la maintenance de programmes applicatifs.</p> 
+            <p>Grâce à des cours spécifiques, les diplômés seront capables de gérer un parc informatique ou d’administrer un réseau au sein d’une entreprise.</p>
+            <p>Ils pourront également gérer l’intégration, la sécurisation et la configuration des serveurs, mais aussi des postes clients et des équipements d’interconnexion.</p>
+        </div>
+    </div>
+    <div id="Project">
+        <div id="Pro">
+            <h1>Projets</h1>
+            <hr>
+            <h2>Dans cette partie vous allez pouvoir découvrir les projets que j'ai réalisés</h2>
+        </div>
+        <div class="Pro1">
+            <p>Mon premier projet à consister au codage d'un capteur de distanciation sociale lors de la pendemie de la covid-19,<br>
+            le code a été réaliser en C sur un module arduino. Le code permet de calculer la distance entre deux personnes et de l'afficher sur un petit écran.</p>
+        </div>
+    </div>
+    <div id="cv-section">
+        <h1>Mon CV</h1>
+        <hr>
+        <h2>Cliquez sur l'image ci-dessous pour télécharger mon CV.</h2>
+        <a href="src/CV Alexis DENAIS.pdf" download>
+            <img src="src/CV Alexis DENAIS.jpg" alt="Aperçu du CV">
+        </a>
+    </div>
+    <div class="veille">
+        <div class="vei">
+            <h1>Veille Technologique</h1>
+            <hr>
+            <h2>La veille technologique, consiste à surveiller les évolutions techniques, les innovations dans un secteur d’activité donnée.</h2>
+        </div>
+        <div class="vei1">
+            <p>Pour la veille technologique, j'ai décidé de traiter le sujet « La virtualisation ». La thématique est:<br>
+            Les enjeux du Cloud dans le futur: les choix stratégiques, les compromis à envisager, comment maîtriser les coûts. Des nouveaux enjeux qui émergent, notamment autour de la protection des données, de la conformité réglementaire ou de la durabilité.</p>
+        </div>
+    </div>
+    <div class="cont">
+        <h1>Contactez-moi</h1>
+        <hr>
+    </div>
+    <div id="contact">
+        <form>
+            <label for="name">Nom:</label><br>
+            <input type="text" id="name" name="name"><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message"></textarea><br>
+            <input type="submit" value="Envoyer">
+        </form>
+    </div>
+</body>
+</html>
